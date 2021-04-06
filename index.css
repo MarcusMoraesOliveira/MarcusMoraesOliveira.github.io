@@ -1,0 +1,105 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+div {
+  box-sizing: border-box;
+  
+}
+
+.main-container {
+  height: 100%;
+  display: flex;
+}
+
+.left-container {
+  background-color: black;
+  width: 35%;
+  display: flex;           /* establish flex container */
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+}
+
+.right-container {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.white{
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: white;
+}
+
+.about{
+  padding-left: 15vh;
+  padding-right: 15vh;
+  font-family: 'Trocchi', serif;
+  font-size: 16px;
+  color: white;
+}
+
+
+.divider {
+  border-top: 3px solid #bbb;
+  width: 40%;
+}
+.fa-github{
+  color: purple;
+}
+.fa-linkedin-in{
+  margin-left: 2vh;
+  color: purple;
+}
+.fa-angle-double-down{
+  margin-left: 2vh;
+  color: purple;
+}
+.fa-code{
+  margin-left: 2vh;
+  color: purple;
+}
+
+.purple{
+  color: purple;
+}
+.icons{
+  margin-top: 2vh;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+.paper{
+  width: 90vh;
+  height: 13vw;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+  padding: 15px;
+}
+
+.project{
+  display: flex;
+  justify-content: space-evenly;
+}
+.image{
+  height: 22vh;
+}
+
+.text{
+  font-size: 20px;
+  font-family: 'Trocchi', serif;
+}
+.font{
+  font-size: 20px;
+}
+.font_fix{
+  padding-right: 16vw;
+}
